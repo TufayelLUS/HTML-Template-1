@@ -1,0 +1,287 @@
+.container
+{
+	margin: 0;
+	padding: 0;
+	width: 1000px;
+	margin: 0 auto;
+	font-family: 'Nunito Sans';
+}
+p
+{
+	font-family: 'Alegreya';
+}
+.header
+{
+	overflow: hidden;
+	background-color: #001122;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: orange;
+}
+.logo
+{
+	float: left;
+	width: 280px;
+	margin: 20px 10px;
+}
+.logo img
+{
+	width: 80%;
+	height: 50%;
+}
+.menu
+{
+	float: right;
+	width: 690px;
+	text-align: right;
+	margin: 50px 0px;
+}
+.menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li
+{
+	display: inline-block;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 5px;
+	color: white;
+}
+.menu ul li a:hover
+{
+	background-color: orange;
+	color: #001122;
+	border-radius: 5px;
+	transition-duration: 0.5s;
+}
+.banner
+{
+	line-height: 0px;
+}
+.banner img
+{
+	width: 100%;
+	height: 400px;
+}
+.about
+{
+	background-color: #112233;
+	color: white;
+	padding: 0px;
+	overflow: hidden;
+}
+.about-left
+{
+	float: left;
+	width: 700px;
+	margin: 20px;
+}
+.about-left h4
+{
+	font-size: 30px;
+}
+.about-left p
+{
+	font-size: 20px;
+	text-align: justify;
+}
+.about-left button
+{
+	text-transform: capitalize;
+	padding: 10px;
+	background-color: orange;
+	border-style: none;
+	color: black;
+	font-size: 20px;
+	float: right;
+}
+.about-left button:hover
+{
+	background-color: #b01209;
+	cursor: pointer;
+}
+.about-sidebar
+{
+	float: left;
+	width: 220px;
+	margin: 20px;
+}
+.about-sidebar ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.about-sidebar h3
+{
+	font-size: 25px;
+}
+.about-sidebar ul li
+{
+	
+}
+.about-sidebar ul li a
+{
+	text-decoration: none;
+	color: #f8a71b;
+	font-size: 20px;
+}
+.about-sidebar ul li a:hover
+{
+	color: #b01209;
+}
+.services
+{
+	background-color: #223344;
+	color: white;
+	overflow: hidden;
+}
+.services h4, .gallery h4, .contact h4
+{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+.service
+{
+	float: left;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #112233;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	width: 304px;
+	text-align: center;
+}
+.service:hover
+{
+	border-color: #b01209;
+}
+.service-title
+{
+
+}
+.service-title h3
+{
+
+}
+.service-text
+{
+	text-align: justify;
+}
+.service-text p
+{
+	margin: 10px;
+}
+.gallery
+{
+	overflow: hidden;
+	background-color: #112233;
+}
+.gallery-image-big
+{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.gallery-image-big img
+{
+	width: 80%;
+	height: 400px;
+}
+.gallery-image
+{
+	float: left;
+	width: 225px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+.gallery-image a
+{
+
+}
+.gallery-image a img
+{
+	width: 100%;
+	height: 200px;
+	transition-duration: 0.5s;
+}
+.gallery-image a img:hover
+{
+	filter: grayscale(1);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.contact
+{
+	background-color: #223344;
+	overflow: hidden;
+}
+.contact-form
+{
+	float: left;
+	width: 580px;
+}
+.contact-form form
+{
+	margin: 20px;
+}
+.contact-form form input, .contact-form form textarea
+{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-family: 'Nunito Sans';
+}
+.contact-form input[type='submit']
+{
+	background-color: orange;
+	width: 50%;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	border-style: none;
+	font-weight: bold;
+}
+.contact-form input[type='submit']:hover
+{
+	background-color: #b01209;
+	color: white;
+	cursor: pointer;
+}
+.contact-address
+{
+	float: right;
+	width: 380px;
+	margin: 20px;
+	color: white;
+}
+.contact-address ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.contact-address ul li
+{
+
+}
+.footer
+{
+	background-color: black;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 20px;
+}
+.footer p
+{
+	font-family: 'Nunito Sans';
+}
